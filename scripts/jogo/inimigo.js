@@ -11,7 +11,8 @@ class Inimigo extends Animacao{
     velocidade, 
     delay
   ){
-    super(matriz,
+    super(
+      matriz, 
       imagem, 
       x, 
       variacaoY, 

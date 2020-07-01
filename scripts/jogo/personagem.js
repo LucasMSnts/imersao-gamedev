@@ -3,13 +3,14 @@ class Personagem extends Animacao {
     matriz, 
     imagem, 
     x, 
-    variacaoY, 
+    variacaoY,
     largura, 
     altura, 
     larguraSprite, 
-    alturaSprite,
+    alturaSprite
   ){
-    super(matriz,
+    super(
+      matriz, 
       imagem, 
       x, 
       variacaoY, 
@@ -18,9 +19,10 @@ class Personagem extends Animacao {
       larguraSprite, 
       alturaSprite
     );
+    
     this.variacaoY = variacaoY;    
     this.yInicial = height - this.altura - this.variacaoY;    
-    this.y = this.yInicial
+    this.y = this.yInicial;
     
     this.velocidadeDoPulo = 0;
     this.gravidade = 6;
