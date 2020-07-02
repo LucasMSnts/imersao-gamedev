@@ -1,6 +1,6 @@
 class TelaInicial {
   constructor(){
-    
+  
   }
   
   draw(){
@@ -17,9 +17,9 @@ class TelaInicial {
     textFont(fonteTelaInicial);
     textAlign(CENTER);
     textSize(50);
-    text('As aventuras de', width / 2, height / 3);
+    text('As aventuras da', width / 2, height / 3);
     textSize(150);
-    text('Hipsta', width / 2, height / 5 * 3);
+    text('Bruxa', width / 2, height / 5 * 3);
   }
   
   _botao(){
